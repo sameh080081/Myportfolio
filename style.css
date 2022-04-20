@@ -1,15 +1,15 @@
-body {
+body { 
     margin: 1px;
-}
+} 
 
-.topbar {
+.topbar { 
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 40px;
-}
+} 
 
-.topbar>h3 {
+.topbar > h3 { 
     font-family: Inter,sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -20,13 +20,13 @@ body {
     text-align: center;    
     color: #28352F;
     padding-left: 25px;
-}
+} 
 
-.menu {
+.menu { 
     padding-right: 25px;
 }
 
-.main {
+.main { 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -40,11 +40,11 @@ body {
     margin: 1px;
 }
 
-.st {
+.st { 
     padding-top: 35px;
-}
+} 
 
-h1 {
+h1 { 
     font-family: Inter,sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -52,17 +52,17 @@ h1 {
     text-align: center;
     padding: 1px;
     margin: 1px;
-}
+} 
 
-.t1 {
+.t1 { 
     color: #172B4D;
-}
+} 
 
-.t2 {
+.t2 { 
     color: rgb(0, 182, 127);
-}
+} 
 
-p {
+p { 
    font-family: Inter,sans-serif;
    font-style: normal;
    font-weight: 400;
@@ -73,11 +73,11 @@ p {
    padding-left: 23px;
    padding-right: 23px;
    margin: 1px;
-}
+} 
 
-.socialIcons {
+.socialIcons { 
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 172px;
-}
+} 
