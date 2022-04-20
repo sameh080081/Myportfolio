@@ -14,10 +14,10 @@ body {
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 28px;    
+    line-height: 28px;
     display: flex;
     align-items: center;
-    text-align: center;    
+    text-align: center;
     color: #28352f;
     padding-left: 25px;
 }
@@ -55,7 +55,7 @@ h1 {
 }
 
 .t1 {
-    color: #172b4D;
+    color: #172b4d;
 }
 
 .t2 {
@@ -69,7 +69,7 @@ p {
    font-size: 20px;
    line-height: 28px;
    text-align: center;
-   color: #172B4d;
+   color: #172b4d;
    padding-left: 23px;
    padding-right: 23px;
    margin: 1px;
