@@ -1,0 +1,83 @@
+body {
+    margin: 1px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.topbar>h3 {
+    font-family: Inter,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;    
+    display: flex;
+    align-items: center;
+    text-align: center;    
+    color: #28352F;
+    padding-left: 25px;
+}
+
+.menu {
+    padding-right: 25px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background: url(./images/background/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding: 1px;
+    margin: 1px;
+}
+
+.st {
+    padding-top: 35px;
+}
+
+h1 {
+    font-family: Inter,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+}
+
+.t1 {
+    color: #172B4D;
+}
+
+.t2 {
+    color: rgb(0, 182, 127);
+}
+
+p {
+   font-family: Inter,sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 28px;
+   text-align: center;
+   color: #172B4D;
+   padding-left: 23px;
+   padding-right: 23px;
+   margin: 1px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+}
