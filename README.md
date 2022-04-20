@@ -2,7 +2,8 @@
 
 # Template3 project.
 
-> This is project for template3 mobile version skeleton.
+> This project is for "figma template3" mobile version skeleton,
+> this project shows sameh potfolio in profesional way.
 
 ## Built With
 
