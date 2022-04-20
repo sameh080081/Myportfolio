@@ -10,7 +10,7 @@ body {
 }
 
 .topbar > h3 {
-    font-family: Inter,sans-serif;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -45,7 +45,7 @@ body {
 }
 
 h1 {
-    font-family: Inter,sans-serif;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -55,7 +55,7 @@ h1 {
 }
 
 .t1 {
-    color: #172B4D;
+    color: #172b4D;
 }
 
 .t2 {
@@ -63,7 +63,7 @@ h1 {
 }
 
 p {
-   font-family: Inter,sans-serif;
+   font-family: Inter, sans-serif;
    font-style: normal;
    font-weight: 400;
    font-size: 20px;
