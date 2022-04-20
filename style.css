@@ -1,13 +1,13 @@
 body {
-    margin: 1px;
+      margin: 1px;
     }
 
-.topbar { 
+.topbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 40px;
-} 
+}
 
 .topbar > h3 { 
     font-family: Inter,sans-serif;
