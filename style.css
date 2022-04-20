@@ -9,7 +9,7 @@ body {
   height: 40px;
 }
 
-.topbar > h3 {
+.topbar > a {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -31,7 +31,6 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  list-style: none;
   background: url(./images/background/background.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,15 +49,19 @@ h1 {
   font-weight: 700;
   font-size: 40px;
   text-align: center;
+  color: #172b4d;
   padding: 1px;
   margin: 1px;
 }
 
-.t1 {
-  color: #172b4d;
-}
-
-.t2 {
+h2 {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  padding: 1px;
+  margin: 1px;
   color: rgb(0, 182, 127);
 }
 
@@ -80,4 +83,5 @@ p {
   justify-content: space-between;
   align-items: center;
   width: 172px;
+  list-style: none;
 }

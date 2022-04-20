@@ -2,7 +2,7 @@
 
 # Template3 project.
 
-> This is project for template3 portfolio.
+> This is project for template3 mobile version skeleton.
 
 ## Built With
 
