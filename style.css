@@ -115,6 +115,10 @@ p {
   width: 80%;
 }
 
+.myworks > h2 {
+  color: #172b4d;
+}
+
 .vector {
   border-radius: 5px;
   border: 2px solid #36b37e;
@@ -251,9 +255,9 @@ button:active {
   margin-top: 40px;
 }
 
-.aboutme > h5 {
-  display: flex;
-  padding-bottom: 15px;
+.aboutme > h2 {
+  color: #172b4d;
+  padding-bottom: 20px;
 }
 
 .aboutme > p {

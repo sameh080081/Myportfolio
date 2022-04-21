@@ -18,6 +18,9 @@
 
 To get a local copy up and running follow these simple example steps.
 
+in order to have local version keep intouch throw my email
+sameh080081@gmail.com
+
 ### Prerequisites
 
 ### Setup
