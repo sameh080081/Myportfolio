@@ -107,9 +107,8 @@ p {
 }
 
 .card {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column-reverse;
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
@@ -122,14 +121,16 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   grid-area: 2/1;
   background-color: white;
   border: 1px solid white;
   border-radius: 8px;
   align-items: center;
   list-style: none;
-  margin: 1px;
+  margin-bottom: 1px;
   padding: 1px;
+  height: 50%;
 }
 
 h4 {
@@ -147,7 +148,12 @@ h4 {
 }
 
 button:hover {
-  background-color: #3a4a42;
+  background-color: #008552;
+  color: white;
+}
+
+button:active {
+  background-color: #36b37f;
   color: white;
 }
 
@@ -279,7 +285,19 @@ h5 {
   margin: 1px;
 }
 
+.L {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 1px;
+  padding: 1px;
+  width: 80%;
+}
+
 .js0 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -293,6 +311,9 @@ h5 {
 }
 
 .rub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -306,6 +327,9 @@ h5 {
 }
 
 .ht {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -319,6 +343,9 @@ h5 {
 }
 
 .cs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -334,7 +361,7 @@ h5 {
 .frameWorks {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:space-around;
   align-items: center;
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
@@ -346,14 +373,29 @@ h5 {
 }
 
 .fw1 {
-  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 1px;
+  padding: 1px;
+  margin-top: 50px;
+  width: 80%;
 }
 
 .fw2 {
-  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 1px;
+  padding: 1px;
+  margin-bottom: 15px;
+  width: 52.5%;
 }
 
 .bs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -367,6 +409,9 @@ h5 {
 }
 
 .rubr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -380,6 +425,9 @@ h5 {
 }
 
 .rs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -393,6 +441,9 @@ h5 {
 }
 
 .capy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -406,6 +457,9 @@ h5 {
 }
 
 .sele {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -421,7 +475,7 @@ h5 {
 .skills {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
@@ -433,11 +487,19 @@ h5 {
 }
 
 .sk {
-  padding-top: 40px;
-  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 1px;
+  padding: 1px;
+  margin-top: 30px;
+  width: 90%;
 }
 
 .codek {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -451,6 +513,9 @@ h5 {
 }
 
 .gith {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -464,6 +529,9 @@ h5 {
 }
 
 .codep {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -477,6 +545,9 @@ h5 {
 }
 
 .gitl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -490,6 +561,9 @@ h5 {
 }
 
 .ter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -500,4 +574,5 @@ h5 {
   width: 77px;
   height: 40px;
   border-radius: 8px;
+  margin-bottom: 10px;
 }
