@@ -89,6 +89,7 @@ p {
   width: 172px;
   list-style: none;
 }
+
 .myworks {
   display: flex;
   flex-direction: column;
@@ -100,7 +101,7 @@ p {
 
 .vector {
   border-radius: 5px;
-  border: 2px solid #36b37e;;
+  border: 2px solid #36b37e;
   background-color: #36b37e;
   width: 50px;
 }
@@ -132,7 +133,7 @@ p {
 }
 
 h4 {
-  font-family: inter , sans-serif;
+  font-family: inter, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -230,8 +231,8 @@ button:hover {
 .about > h1 {
   display: flex;
   padding-bottom: 15px;
-
 }
+
 .about > p {
   width: 87%;
   padding-bottom: 40px;
@@ -500,4 +501,3 @@ h5 {
   height: 40px;
   border-radius: 8px;
 }
-
