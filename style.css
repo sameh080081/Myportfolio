@@ -71,7 +71,7 @@ h5 {
   font-size: 20px;
   line-height: 32px;
   text-align: center;
-  color: #42526E;
+  color: #42526e;
   font-style: normal;
   padding: 1px;
   margin: 1px;
@@ -596,8 +596,8 @@ h3 {
   width: 100%;
   background-image: url("./images/background/illustration-contact-form.png");
   background-repeat: no-repeat;
-  background-position:right;
-  background-position-y:600px
+  background-position: right;
+  background-position-y: 600px;
 }
 
 .contact > h2 {
