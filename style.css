@@ -685,7 +685,7 @@ h3 {
   margin-top: 40px;
 }
 
-@media screen and (min-width : 650px){
+@media screen and (min-width: 650px) {
   .page1 {
     background: url("./images/background/desktopBackground.png");
     background-size: cover;
@@ -705,6 +705,7 @@ h3 {
   .topbar > a {
     display: none;
   }
+
   .menu {
     display: none;
   }
@@ -726,7 +727,7 @@ h3 {
     margin-top: 90px;
   }
 
-  p{
+  p {
     margin-top: 20px;
   }
 
@@ -847,7 +848,7 @@ h3 {
     width: 100%;
     margin: 1px;
     padding: 1px;
-    text-align:left
+    text-align: left;
   }
 
   .contactForm {
@@ -857,7 +858,7 @@ h3 {
   .vec2 {
     width: 100%;
     border-radius: 5px;
-    border: 1px solid #DFE1E6;
+    border: 1px solid #dfe1e6;
     margin-top: 50px;
   }
 
@@ -868,5 +869,4 @@ h3 {
     margin-top: 15px;
     margin-bottom: 10px;
   }
-
 }
