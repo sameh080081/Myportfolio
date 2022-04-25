@@ -67,14 +67,15 @@ h2 {
 }
 
 h5 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
   text-align: center;
-  color: #172b4d;
+  color: #42526e;
+  font-style: normal;
   padding: 1px;
   margin: 1px;
-  padding-bottom: 10px;
+  margin-bottom: 100px;
 }
 
 p {
@@ -95,6 +96,7 @@ p {
   align-items: center;
   width: 172px;
   list-style: none;
+  padding: 1px;
 }
 
 .works {
@@ -584,4 +586,81 @@ h3 {
 
 .font {
   font-family: Inter, sans-serif;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url("./images/background/illustration-contact-form.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: 600px;
+}
+
+.contact > h2 {
+  color: #172b4d;
+  padding-top: 40px;
+  width: 85%;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  width: 90%;
+  padding: 1px;
+  margin: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.fName {
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 40px;
+  width: 100%;
+}
+
+.email {
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 40px;
+  width: 100%;
+}
+
+.message {
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 110px;
+  width: 100%;
+}
+
+.submit {
+  width: 129px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.contact > .vector {
+  width: 80px;
+  border-radius: 5px;
+  border: 2px solid #28352f;
+  background-color: #28352f;
+  margin-top: 40px;
 }
