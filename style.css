@@ -685,7 +685,7 @@ h3 {
   margin-top: 40px;
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 768px) {
   .page1 {
     background: url("./images/background/desktopBackground.png");
     background-size: cover;
