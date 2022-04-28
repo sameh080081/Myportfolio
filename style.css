@@ -664,7 +664,7 @@ h3 {
 }
 
 .cont > h2:hover {
-  transform:translate(20px);
+  transform: translate(20px);
 }
 
 .contactForm {
