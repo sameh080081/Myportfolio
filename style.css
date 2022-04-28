@@ -660,6 +660,11 @@ h3 {
   color: #172b4d;
   padding-top: 40px;
   width: 85%;
+  transition: transform 2s;
+}
+
+.cont > h2:hover {
+  transform:translate(20px);
 }
 
 .contactForm {
