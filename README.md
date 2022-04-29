@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# sameh portfolio
+# Sameh portfolio
 
 > this project shows sameh potfolio in a profesional way.
 
