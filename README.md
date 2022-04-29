@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# sameh portfolio.
+# sameh portfolio
 
-> this project shows sameh potfolio in profesional way.
+> this project shows sameh potfolio in a profesional way.
 
 ## Built With
 
@@ -12,7 +12,6 @@
 
 ## Getting Started
 
-my portfolio url
 sameh080081.github.io
 
 ### Prerequisites
