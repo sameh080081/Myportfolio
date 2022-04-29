@@ -2,7 +2,7 @@
 
 # Sameh portfolio
 
-> this project shows sameh potfolio in profesional way.
+> this project shows sameh potfolio in a profesional way.
 
 ## Built With
 
@@ -12,13 +12,7 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-To get a local copy up and running follow these simple example steps.
-
-in order to have local version keep intouch throw my email
-sameh080081@gmail.com
+sameh080081.github.io
 
 ### Prerequisites
 
@@ -36,9 +30,9 @@ sameh080081@gmail.com
 
 👤 **Sameh**
 
-- GitHub: [@githubhandle](https://github.com/sameh080081)
-- Twitter: [@twitterhandle](https://twitter.com/sameh080081)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/sameh080081)
+- GitHub: [@sameh080081](https://github.com/sameh080081)
+- Twitter: [@same080081](https://twitter.com/sameh080081)
+- LinkedIn: [sameh080081](https://linkedin.com/in/sameh080081)
 
 ## 🤝 Contributing
 
