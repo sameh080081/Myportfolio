@@ -1,8 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Template3 project.
+# sameh portfolio.
 
-> This project is for "figma template3" mobile version skeleton,
 > this project shows sameh potfolio in profesional way.
 
 ## Built With
