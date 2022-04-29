@@ -360,7 +360,7 @@ h3 {
   list-style: none;
   margin: 1px;
   padding: 1px;
-  width: 82%;
+  width: 95%;
   margin-top: 40px;
 }
 
@@ -442,7 +442,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  width: 80%;
+  width: 95%;
   padding: 1px;
   margin: 1px;
   margin-top: 25px;
@@ -452,7 +452,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  width: 53%;
+  width: 60%;
   padding: 1px;
   margin: 1px;
 }
@@ -552,7 +552,7 @@ h3 {
   list-style: none;
   margin: 1px;
   padding: 1px;
-  width: 90%;
+  width: 95%;
   margin-top: 25px;
 }
 
@@ -793,6 +793,10 @@ h3 {
     display: none;
   }
 
+  .buttons {
+    width: 90%;
+  }
+
   .about {
     display: flex;
     flex-direction: column;
@@ -829,7 +833,7 @@ h3 {
   }
 
   .L {
-    width: 90%;
+    width: 85%;
     margin: 10px;
     margin-bottom: 45px;
   }
@@ -842,12 +846,12 @@ h3 {
   }
 
   .fw1 {
-    width: 90%;
+    width: 85%;
     margin-top: 10px;
   }
 
   .fw2 {
-    width: 60%;
+    width: 55%;
   }
 
   .skills {
@@ -858,7 +862,7 @@ h3 {
   }
 
   .sk {
-    width: 100%;
+    width: 90%;
     margin-top: 10px;
   }
 
