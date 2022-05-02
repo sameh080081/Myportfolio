@@ -226,6 +226,9 @@ button:active {
   width: 103px;
   height: 32px;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .css {
@@ -238,6 +241,9 @@ button:active {
   width: 45px;
   height: 32px;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .js {
@@ -250,6 +256,9 @@ button:active {
   width: 82px;
   height: 32px;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .html {
@@ -262,6 +271,9 @@ button:active {
   width: 51px;
   height: 32px;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects {
