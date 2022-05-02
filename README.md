@@ -2,7 +2,7 @@
 
 # Sameh portfolio
 
-> this project shows sameh potfolio in a profesional way.
+> this project shows sameh portfolio in a profesional way.
 
 ## Built With
 
@@ -12,6 +12,7 @@
 
 ## Getting Started
 
+use this link to reach my portfolio.
 sameh080081.github.io
 
 ### Prerequisites
