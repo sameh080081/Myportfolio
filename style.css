@@ -226,6 +226,9 @@ button:active {
   width: 103px;
   height: 32px;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .css {
@@ -238,6 +241,9 @@ button:active {
   width: 45px;
   height: 32px;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .js {
@@ -250,6 +256,9 @@ button:active {
   width: 82px;
   height: 32px;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .html {
@@ -262,6 +271,9 @@ button:active {
   width: 51px;
   height: 32px;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects {
@@ -672,12 +684,16 @@ h3 {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 300px;
+  height: 350px;
   width: 90%;
   padding: 1px;
   margin: 1px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.contactForm > label {
+  font-size: 15px;
 }
 
 .fName {
@@ -687,6 +703,7 @@ h3 {
   border-radius: 4px;
   height: 40px;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .email {
@@ -696,6 +713,7 @@ h3 {
   border-radius: 4px;
   height: 40px;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .message {
