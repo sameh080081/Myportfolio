@@ -692,6 +692,10 @@ h3 {
   margin-bottom: 20px;
 }
 
+.contactForm > label {
+  font-size: 15px;
+}
+
 .fName {
   background: #fff;
   border: 1px solid #d0d9d4;
