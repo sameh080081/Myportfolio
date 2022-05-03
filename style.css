@@ -694,6 +694,7 @@ h3 {
 
 .contactForm > label {
   font-size: 15px;
+  align-self: flex-start;
 }
 
 .fName {
