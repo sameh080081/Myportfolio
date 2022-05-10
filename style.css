@@ -89,8 +89,6 @@ body {
   display: none;
 }
 
-
-
 #close {
   height: 20px;
   width: 20px;
@@ -129,7 +127,7 @@ body {
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #3A4A42;
+  color: #3a4a42;
 }
 
 .desktoplinks {
