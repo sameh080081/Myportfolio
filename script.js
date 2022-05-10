@@ -5,10 +5,10 @@ const item1 = document.getElementById('menuitem1');
 const item2 = document.getElementById('menuitem2');
 const item3 = document.getElementById('menuitem3');
 function show() {
-menuItems.style.display = 'flex';
+  menuItems.style.display = 'flex';
 }
 function hide() {
-menuItems.style.display = 'none';
+  menuItems.style.display = 'none';
 }
 burger.addEventListener('click', show);
 close.addEventListener('click', hide);
