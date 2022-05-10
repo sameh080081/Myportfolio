@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding-top:10px;
+  padding-top: 10px;
 }
 
 .navbar {
@@ -84,7 +84,7 @@ body {
   left: 1px;
   height: 100vh;
   width: 100%;
-  background:url(./images/background/Overlay.png);
+  background: url(./images/background/Overlay.png);
   backdrop-filter: blur(10px);
   display: none;
 }
