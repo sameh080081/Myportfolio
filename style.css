@@ -95,7 +95,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 20px;
   color: #67798e;
   width: 14px;
   height: 14px;
@@ -876,6 +876,14 @@ button:active {
     justify-content: space-around;
     align-items: center;
     width: 25%;
+  }
+
+  .desktoplinks > a {
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #3a4a42;
   }
 
   .main {
