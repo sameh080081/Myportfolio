@@ -10,4 +10,4 @@ function hide() {
 }
 burger.addEventListener('click', show);
 close.addEventListener('click', hide);
-items.forEach(item => item.addEventListener('click', hide));
+items.forEach(item => {item.addEventListener('click', hide)});
