@@ -35,6 +35,12 @@ use this link to reach my portfolio.
 - Twitter: [@same080081](https://twitter.com/sameh080081)
 - LinkedIn: [sameh080081](https://linkedin.com/in/sameh080081)
 
+**Kell Mcwatt**
+
+- GitHub: @CrystallineButterfly
+- Twitter: @CrystAlline_k42
+- LinkedIn: Kell Mcwatt
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
