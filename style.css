@@ -90,8 +90,6 @@ body {
 }
 
 #close {
-  height: 20px;
-  width: 20px;
   border: none;
   border-radius: 2px;
   display: flex;
@@ -101,7 +99,6 @@ body {
   color: #67798e;
   width: 14px;
   height: 14px;
-
 }
 
 #close:hover {
