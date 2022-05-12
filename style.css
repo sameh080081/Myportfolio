@@ -135,6 +135,11 @@ body {
   display: none;
 }
 
+.popup-container {
+  display: flex;
+  position: fixed;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -312,10 +317,6 @@ li {
 .buttons {
   width: 95%;
   justify-content: space-around;
-}
-
-button {
-  transition: background-color 0.5s ease-in;
 }
 
 button:hover {
