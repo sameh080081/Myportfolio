@@ -1181,7 +1181,8 @@ button:active {
     font-size: 32px;
     line-height: 44px;
     color: #172b4d;
-    width: 80%;
+    width: 50%;
+    margin-top: 10px;
   }
 
   .tags-container {
@@ -1233,7 +1234,8 @@ button:active {
     align-self: flex-end;
     height: auto;
     margin: 1px;
-    margin-top: -70px;
+    margin-top: -130px;
+    margin-bottom: 60px;
   }
 
   .btnLive {
