@@ -135,6 +135,17 @@ body {
   display: none;
 }
 
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #172b4d;
+  padding-left: 23px;
+  padding-right: 23px;
+  margin: 1px;
+}
+
 .popup-container {
   display: flex;
   position: fixed;
@@ -184,7 +195,7 @@ body {
   margin-left: 10px;
   justify-content: space-between;
   width: 60%;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 1px 10px 1px;
 }
 
 .tag {
@@ -220,7 +231,7 @@ body {
 .btnLive {
   width: 150px;
   height: 48px;
-  background: #36B37F;
+  background: #36b37f;
   color: white;
   border-radius: 4px;
   border: none;
@@ -234,7 +245,7 @@ body {
 .btnSource {
   width: 150px;
   height: 48px;
-  background: #36B37F;
+  background: #36b37f;
   color: white;
   border-radius: 4px;
   border: none;
@@ -323,17 +334,6 @@ h5 {
   padding: 1px;
   margin: 1px;
   margin-bottom: 100px;
-}
-
-p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  text-align: center;
-  color: #172b4d;
-  padding-left: 23px;
-  padding-right: 23px;
-  margin: 1px;
 }
 
 .socialIcons {
@@ -1162,7 +1162,6 @@ button:active {
   .popup-project-img1 {
     width: auto;
     height: auto;
-
   }
 
   .close-icon {
@@ -1175,7 +1174,7 @@ button:active {
     font-weight: 600;
     font-size: 32px;
     line-height: 44px;
-    color: #172B4D;
+    color: #172b4d;
     width: 80%;
     order: 2;
   }
@@ -1185,7 +1184,7 @@ button:active {
     margin-left: 10px;
     justify-content: space-between;
     width: 60%;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 1px 10px 1px;
     order: 3;
   }
   
@@ -1222,7 +1221,7 @@ button:active {
   .btnLive {
     width: 150px;
     height: 48px;
-    background: #36B37F;
+    background: #36b37f;
     color: white;
     border-radius: 4px;
     border: none;
@@ -1236,7 +1235,7 @@ button:active {
   .btnSource {
     width: 150px;
     height: 48px;
-    background: #36B37F;
+    background: #36b37f;
     color: white;
     border-radius: 4px;
     border: none;
