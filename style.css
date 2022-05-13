@@ -135,6 +135,17 @@ body {
   display: none;
 }
 
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #172b4d;
+  padding-left: 23px;
+  padding-right: 23px;
+  margin: 1px;
+}
+
 .popup-container {
   display: flex;
   position: fixed;
@@ -183,7 +194,7 @@ body {
   margin-left: 10px;
   justify-content: space-between;
   width: 60%;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 1px 10px 1px;
 }
 
 .tags-container2 {
@@ -223,7 +234,7 @@ body {
 .btnLive {
   width: 150px;
   height: 48px;
-  background: #36B37F;
+  background: #36b37f;
   color: white;
   border-radius: 4px;
   border: none;
@@ -237,7 +248,7 @@ body {
 .btnSource {
   width: 150px;
   height: 48px;
-  background: #36B37F;
+  background: #36b37f;
   color: white;
   border-radius: 4px;
   border: none;
@@ -326,17 +337,6 @@ h5 {
   padding: 1px;
   margin: 1px;
   margin-bottom: 100px;
-}
-
-p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  text-align: center;
-  color: #172b4d;
-  padding-left: 23px;
-  padding-right: 23px;
-  margin: 1px;
 }
 
 .socialIcons {
@@ -1161,7 +1161,7 @@ button:active {
     height: 100%;
     overflow-y: scroll;
   }
-  
+
   .popup-project-img1 {
     position: static;
     width: 100%;
@@ -1171,7 +1171,7 @@ button:active {
   .close-icon {
     position: fixed;
   }
-  
+
   .title {
     position: static;
     text-align: left;
@@ -1182,7 +1182,7 @@ button:active {
     color: #172b4d;
     width: 80%;
   }
-  
+
   .tags-container {
     position: static;
     display: flex;
@@ -1209,7 +1209,7 @@ button:active {
     font-size: 12px;
     line-height: 16px;
   }
-  
+
   .popup-container > p {
     position: static;
     text-align: left;
@@ -1222,7 +1222,7 @@ button:active {
     margin-top: 30px;
     order: 5;
   }
-  
+
   .btn-container {
     position: static;
     width: 33%;
@@ -1234,12 +1234,12 @@ button:active {
     margin: 0px;
     margin-top: -70px;
   }
-  
+
   .btnLive {
     position: static;
     width: 150px;
     height: 48px;
-    background: #36B37F;
+    background: #36b37f;
     color: white;
     border-radius: 4px;
     border: none;
@@ -1249,12 +1249,12 @@ button:active {
     font-weight: 500;
     font-size: 17px;
   }
-  
+
   .btnSource {
     position: static;
     width: 150px;
     height: 48px;
-    background: #36B37F;
+    background: #36b37f;
     color: white;
     border-radius: 4px;
     border: none;
