@@ -1166,7 +1166,6 @@ button:active {
     position: static;
     width: 100%;
     height: auto;
-    margin: 10px;
   }
 
   .close-icon {
