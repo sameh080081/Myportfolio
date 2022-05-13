@@ -50,7 +50,7 @@ const projects = [{
 
 function seeProjects(index) {
   const {
-    image, title, tags, description, btnLive, btnSource
+    image, title, tags, description, btnLive, btnSource,
   } = projects[index];
   const container = document.createElement('div');
   container.classList.add('popup-container');
@@ -68,14 +68,13 @@ function seeProjects(index) {
   <button type="button" class="btnLive">See Live<img src=${btnLive}></button>
   <button type="button" class="btnSource">See Source<img src=${btnSource}></button>
   </div>`;
-  console.log(document.body);
+  function closemethod() {
+    container.style.display = 'none';
+  }
   document.body.appendChild(container);
   container.style.display = 'block';
   const btnclose = container.querySelector('.close-icon');
   btnclose.addEventListener('click' ,closemethod);
-  function closemethod(){
-    container.style.display = "none";
-  }
 }
 
 const projectsBtn = document.querySelectorAll('.projects');
