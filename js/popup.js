@@ -49,8 +49,8 @@ const projects = [{
 ];
 
 const projectsBtn = document.querySelectorAll('.projects');
-for (let i = 0;  i< projectsBtn.length; i++){  
-  projectsBtn[i].addEventListener('click' ,() => seeProjects(i));
+for (let i = 0; i < projectsBtn.length; i+=1) {  
+  projectsBtn[i].addEventListener('click',() => seeProjects(i));
 }
 
 function seeProjects(index){
