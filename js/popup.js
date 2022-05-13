@@ -49,35 +49,35 @@ const projects = [{
 ];
 
 const projectsBtn = document.querySelectorAll('.projects');
-for (let i = 0;i<projectsBtn.length;i++){
-    projectsBtn[i].addEventListener('click' ,() => seeProjects(i));
+for (let i = 0;  i< projectsBtn.length; i++){  
+  projectsBtn[i].addEventListener('click' ,() => seeProjects(i));
 }
 
 function seeProjects(index){
-    const {image,title,tags,description,btnLive,btnSource,} = projects[index];
-    const container = document.createElement('div');
-    container.classList.add('popup-container');
-    container.innerHTML =
-    `<img src=${image}  class="popup-project-img1">
-    <img src="./images/icons/Iconx.png"  class="close-icon">
-    <h1 class="title">${title}</h1>
-    <div class="tags-container">
-    <div class="tag">${tags[0]}</div>
-    <div class="tag">${tags[1]}</div>
-    <div class="tag">${tags[2]}</div>
-    </div>
-    <p>${description}</p>
-    <div class="btn-container">
-    <button type="button" class="btnLive">See Live<img src="./images/icons/see-live-icon.png"></button>
-    <button type="button" class="btnSource">See Source<img src="./images/icons/Vector.png"></button>
-    </div>`;
-    console.log(document.body);
-    document.body.appendChild(container);
-    container.style.display = 'block';
+  const {image, title, tags, description, btnLive, btnSource, } = projects[index];
+  const container = document.createElement('div');
+  container.classList.add('popup-container');
+  container.innerHTML =
+  `<img src=${image}  class="popup-project-img1">
+  <img src="./images/icons/Iconx.png"  class="close-icon">
+  <h1 class="title">${title}</h1>
+  <div class="tags-container">
+  <div class="tag">${tags[0]}</div>
+  <div class="tag">${tags[1]}</div>
+  <div class="tag">${tags[2]}</div>
+  </div>
+  <p>${description}</p>
+  <div class="btn-container">
+  <button type="button" class="btnLive">See Live<img src="./images/icons/see-live-icon.png"></button>
+  <button type="button" class="btnSource">See Source<img src="./images/icons/Vector.png"></button>
+  </div>`;
+  console.log(document.body);
+  document.body.appendChild(container);
+  container.style.display = 'block';
     
-    const btnclose = container.querySelector('.close-icon');
-    btnclose.addEventListener('click' ,closemethod);
-    function closemethod(){
+  const btnclose = container.querySelector('.close-icon');
+  btnclose.addEventListener('click' ,closemethod);
+  function closemethod(){
         container.style.display = "none";
     }
 }
