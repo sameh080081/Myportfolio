@@ -1189,14 +1189,9 @@ button:active {
     display: flex;
     margin-left: 10px;
     justify-content: space-between;
-    width: 45%;
-    padding: 10px 0px 10px 0px;
-  }
-
-  .tags-container2 {
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
+    width: 60%;
+    padding: 10px 1px 10px 1px;
+    order: 3;
   }
   
   .tag {
