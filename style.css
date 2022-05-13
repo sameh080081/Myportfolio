@@ -150,15 +150,14 @@ p {
   display: flex;
   position: fixed;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   background-color: white;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   width: 100%;
   height: 100%;
   overflow-y: scroll;
-  justify-self: center;
 }
 
 .popup-project-img1 {
@@ -168,7 +167,7 @@ p {
 }
 
 .close-icon {
-  position: fixed;
+  position: absolute;
   top: 15px;
   right: 15px;
   width: 15px;
@@ -196,6 +195,10 @@ p {
   justify-content: space-between;
   width: 60%;
   padding: 10px 1px 10px 1px;
+}
+
+.tags-container2 {
+  display: none;
 }
 
 .tag {
@@ -1150,9 +1153,9 @@ button:active {
   }
 
   .popup-container {
-    display: flex;
-    flex-direction: row;
     position: fixed;
+    display: flex;
+    flex-direction: column;
     background-color: white;
     width: 100%;
     height: 100%;
@@ -1160,35 +1163,45 @@ button:active {
   }
 
   .popup-project-img1 {
-    width: auto;
+    position: static;
+    width: 100%;
     height: auto;
   }
 
   .close-icon {
     position: absolute;
+    display: flex;
   }
 
   .title {
+    position: static;
     text-align: left;
     margin-left: 10px;
     font-weight: 600;
     font-size: 32px;
     line-height: 44px;
     color: #172b4d;
-    width: 80%;
-    order: 2;
+    width: 50%;
+    margin-top: 10px;
   }
 
   .tags-container {
+    position: static;
     display: flex;
     margin-left: 10px;
     justify-content: space-between;
-    width: 60%;
+    width: 45%;
     padding: 10px 1px 10px 1px;
-    order: 3;
+  }
+
+  .tags-container2 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
   }
 
   .tag {
+    position: static;
     background-color: #ebf0ee;
     width: auto;
     padding: 5px 10px 5px 10px;
@@ -1200,6 +1213,7 @@ button:active {
   }
 
   .popup-container > p {
+    position: static;
     text-align: left;
     padding-left: 10px;
     font-weight: 400;
@@ -1207,18 +1221,25 @@ button:active {
     line-height: 24px;
     color: #344563;
     width: 90%;
-    order: 4;
+    margin-top: 30px;
+    order: 5;
   }
 
   .btn-container {
-    width: 100%;
+    position: static;
+    width: 33%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    order: 2;
+    align-self: flex-end;
+    height: auto;
+    margin: 1px;
+    margin-top: -80px;
+    margin-bottom: 15px;
   }
 
   .btnLive {
+    position: static;
     width: 150px;
     height: 48px;
     background: #36b37f;
@@ -1233,6 +1254,7 @@ button:active {
   }
 
   .btnSource {
+    position: static;
     width: 150px;
     height: 48px;
     background: #36b37f;
