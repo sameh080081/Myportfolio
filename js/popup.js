@@ -8,12 +8,12 @@ for (let i = 0; i < 6; i += 1) {
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 60s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     btnLive: './images/icons/see-live-icon.png',
     btnSource: './images/icons/Vector.png',
-  }
+  };
 }
 
 function seeProjects(index) {
   if (window.matchMedia('(min-width: 768px)').matches) {
-    projects[index].image = './images/snap/1.png'
+    projects[index].image = './images/snap/1.png';
   }
   const {
     image, title, tags, description, btnLive, btnSource,
