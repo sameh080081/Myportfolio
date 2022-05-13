@@ -1181,7 +1181,6 @@ button:active {
     line-height: 44px;
     color: #172b4d;
     width: 80%;
-    order: 2;
   }
   
   .tags-container {
@@ -1189,9 +1188,14 @@ button:active {
     display: flex;
     margin-left: 10px;
     justify-content: space-between;
-    width: 60%;
+    width: 45%;
     padding: 10px 1px 10px 1px;
-    order: 3;
+  }
+
+  .tags-container2 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
   }
   
   .tag {
