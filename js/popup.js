@@ -48,9 +48,7 @@ const projects = [{
 },
 ];
 
-
 function seeProjects(index) {
-
   if (window.matchMedia('(min-width: 768px)').matches) {
     projects[index].image = './images/snap/1.png';
   }
