@@ -1158,7 +1158,7 @@ button:active {
     height: 100%;
     overflow-y: scroll;
   }
-  
+
   .popup-project-img1 {
     width: auto;
     height: auto;
@@ -1167,7 +1167,7 @@ button:active {
   .close-icon {
     position: absolute;
   }
-  
+
   .title {
     text-align: left;
     margin-left: 10px;
@@ -1178,7 +1178,7 @@ button:active {
     width: 80%;
     order: 2;
   }
-  
+
   .tags-container {
     display: flex;
     margin-left: 10px;
@@ -1187,7 +1187,7 @@ button:active {
     padding: 10px 1px 10px 1px;
     order: 3;
   }
-  
+
   .tag {
     background-color: #ebf0ee;
     width: auto;
@@ -1198,7 +1198,7 @@ button:active {
     font-size: 12px;
     line-height: 16px;
   }
-  
+
   .popup-container > p {
     text-align: left;
     padding-left: 10px;
@@ -1209,7 +1209,7 @@ button:active {
     width: 90%;
     order: 4;
   }
-  
+
   .btn-container {
     width: 100%;
     display: flex;
@@ -1217,7 +1217,7 @@ button:active {
     align-items: center;
     order: 2;
   }
-  
+
   .btnLive {
     width: 150px;
     height: 48px;
@@ -1231,7 +1231,7 @@ button:active {
     font-weight: 500;
     font-size: 17px;
   }
-  
+
   .btnSource {
     width: 150px;
     height: 48px;
