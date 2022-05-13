@@ -49,8 +49,8 @@ const projects = [{
 ];
 
 function seeProjects(index) {
-  const { 
-    image, title, tags, description, btnLive, btnSource, } = projects[index];
+  const {
+    image, title, tags, description, btnLive, btnSource} = projects[index];
   const container = document.createElement('div');
   container.classList.add('popup-container');
   container.innerHTML =
@@ -74,11 +74,11 @@ function seeProjects(index) {
   const btnclose = container.querySelector('.close-icon');
   btnclose.addEventListener('click' ,closemethod);
   function closemethod(){
-        container.style.display = "none";
-    }
+    container.style.display = "none";
+  }
 }
 
 const projectsBtn = document.querySelectorAll('.projects');
-for (let i = 0; i < projectsBtn.length; i += 1) {  
+for (let i = 0; i < projectsBtn.length; i += 1) {
   projectsBtn[i].addEventListener('click', () => seeProjects(i));
 }
