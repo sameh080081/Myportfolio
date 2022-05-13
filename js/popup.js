@@ -54,8 +54,7 @@ function seeProjects(index) {
   } = projects[index];
   const container = document.createElement('div');
   container.classList.add('popup-container');
-  container.innerHTML =
-  `<img src=${image}  class="popup-project-img1">
+  container.innerHTML = `<img src=${image}  class="popup-project-img1">
   <img src="./images/icons/Iconx.png"  class="close-icon">
   <h1 class="title">${title}</h1>
   <div class="tags-container">
@@ -74,7 +73,7 @@ function seeProjects(index) {
   document.body.appendChild(container);
   container.style.display = 'block';
   const btnclose = container.querySelector('.close-icon');
-  btnclose.addEventListener('click' ,closemethod);
+  btnclose.addEventListener('click', closemethod);
 }
 
 const projectsBtn = document.querySelectorAll('.projects');
