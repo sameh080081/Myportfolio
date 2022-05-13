@@ -3,54 +3,54 @@ const projects = [{
   title: 'Multi-Post Stories Gpngain+Glory',
   tags: ['Ruby on rails', 'css', 'JavaScript'],
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  btnLive: './images/icons/see-live-icon.jbg',
-  btnSource: './images/icons/Vector.jbg',
+  btnLive: './images/icons/see-live-icon.png',
+  btnSource: './images/icons/Vector.png',
 },
 {
   image: './images/snap/2.png',
   title: 'Multi-Post Stories Gain+Glory',
   tags: ['Ruby on rails', 'css', 'JavaScript'],
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  btnLive: './images/icons/see-live-icon.jbg',
-  btnSource: './images/icons/Vector.jbg',
+  btnLive: './images/icons/see-live-icon.png',
+  btnSource: './images/icons/Vector.png',
 },
 {
   image: './images/snap/3.png',
   title: 'Multi-Post Stories Gain+Glory',
   tags: ['Ruby on rails', 'css', 'JavaScript'],
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  btnLive: './images/icons/see-live-icon.jbg',
-  btnSource: './images/icons/Vector.jbg',
+  btnLive: './images/icons/see-live-icon.png',
+  btnSource: './images/icons/Vector.png',
 },
 {
   image: './images/snap/4.png',
   title: 'Multi-Post Stories Gain+Glory',
   tags: ['Ruby on rails', 'css', 'JavaScript'],
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  btnLive: './images/icons/see-live-icon.jbg',
-  btnSource: './images/icons/Vector.jbg',
+  btnLive: './images/icons/see-live-icon.png',
+  btnSource: './images/icons/Vector.png',
 },
 {
   image: './images/snap/1.png',
   title: 'Multi-Post Stories Gain+Glory',
   tags: ['Ruby on rails', 'css', 'JavaScript'],
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  btnLive: './images/icons/see-live-icon.jbg',
-  btnSource: './images/icons/Vector.jbg',
+  btnLive: './images/icons/see-live-icon.png',
+  btnSource: './images/icons/Vector.png',
 },
 {
   image: './images/snap/2.png',
   title: 'Multi-Post Stories Gain+Glory',
   tags: ['Ruby on rails', 'css', 'JavaScript'],
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 60s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  btnLive: './images/icons/see-live-icon.jbg',
-  btnSource: './images/icons/Vector.jbg',
+  btnLive: './images/icons/see-live-icon.png',
+  btnSource: './images/icons/Vector.png',
 },
 ];
 
-function seeProjects (index){
+function seeProjects(index) {
   const { 
-      image, title, tags, description, btnLive, btnSource, } = projects[index];
+    image, title, tags, description, btnLive, btnSource, } = projects[index];
   const container = document.createElement('div');
   container.classList.add('popup-container');
   container.innerHTML =
@@ -64,8 +64,8 @@ function seeProjects (index){
   </div>
   <p>${description}</p>
   <div class="btn-container">
-  <button type="button" class="btnLive">See Live<img src="./images/icons/see-live-icon.png"></button>
-  <button type="button" class="btnSource">See Source<img src="./images/icons/Vector.png"></button>
+  <button type="button" class="btnLive">See Live<img src=${btnLive}></button>
+  <button type="button" class="btnSource">See Source<img src=${btnSource}></button>
   </div>`;
   console.log(document.body);
   document.body.appendChild(container);
