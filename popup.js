@@ -71,10 +71,11 @@ function seeProjects(index){
     <button type="button" class="btnLive">See Live<img src="./images/icons/see-live-icon.png"></button>
     <button type="button" class="btnSource">See Source<img src="./images/icons/Vector.png"></button>
     </div>`;
+    console.log(document.body);
     document.body.appendChild(container);
     container.style.display = 'block';
     
-    const btnclose = document.querySelector('.close-icon');
+    const btnclose = container.querySelector('.close-icon');
     btnclose.addEventListener('click' ,closemethod);
     function closemethod(){
         container.style.display = "none";
