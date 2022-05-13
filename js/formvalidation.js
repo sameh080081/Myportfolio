@@ -4,7 +4,7 @@ const formButton = document.getElementById('submit');
 
 form.addEventListener('submit', (event) => {
   if (emailInput.value !== emailInput.value.toLowerCase()) {
-    formButton.setCustomValidity('Please put your email characters in lower case my g!');
+    formButton.setCustomValidity('Put your email characters in lower case characters first pls!');
     formButton.reportValidity();
     event.preventDefault();
   }
