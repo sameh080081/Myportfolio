@@ -167,7 +167,7 @@ p {
 }
 
 .close-icon {
-  position: fixed;
+  position: absolute;
   top: 15px;
   right: 15px;
   width: 15px;
@@ -1169,7 +1169,8 @@ button:active {
   }
 
   .close-icon {
-    position: fixed;
+    position: absolute;
+    display: flex;
   }
 
   .title {
