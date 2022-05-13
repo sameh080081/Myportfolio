@@ -1190,9 +1190,6 @@ button:active {
     justify-content: space-between;
     width: 45%;
     padding: 10px 1px 10px 1px;
-    width: 60%;
-    padding: 10px 1px 10px 1px;
-    order: 3;
   }
 
   .tags-container2 {
