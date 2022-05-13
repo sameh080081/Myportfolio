@@ -69,7 +69,7 @@ function seeProjects(index) {
   </div>
   <p>${description}</p>
   <div class="btn-container">
-  <button type="button" class="btnLive">See Live<img src=${btnLive}></button>
+  <button type="button" class="btnLive">See Live<img src=${btnLiv}></button>
   <button type="button" class="btnSource">See Source<img src=${btnSource}></button>
   </div>`;
   function closemethod() {
