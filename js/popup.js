@@ -50,7 +50,8 @@ const projects = [{
 
 function seeProjects(index) {
   const {
-    image, title, tags, description, btnLive, btnSource} = projects[index];
+    image, title, tags, description, btnLive, btnSource
+  } = projects[index];
   const container = document.createElement('div');
   container.classList.add('popup-container');
   container.innerHTML =
@@ -70,7 +71,6 @@ function seeProjects(index) {
   console.log(document.body);
   document.body.appendChild(container);
   container.style.display = 'block';
-    
   const btnclose = container.querySelector('.close-icon');
   btnclose.addEventListener('click' ,closemethod);
   function closemethod(){
