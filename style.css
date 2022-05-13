@@ -1194,6 +1194,12 @@ button:active {
     padding: 10px 1px 10px 1px;
     order: 3;
   }
+
+  .tags-container2 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
   
   .tag {
     position: static;
