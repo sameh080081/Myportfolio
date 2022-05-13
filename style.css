@@ -1197,7 +1197,7 @@ button:active {
     justify-content: space-between;
     width: 50%;
   }
-  
+
   .tag {
     position: static;
     background-color: #ebf0ee;
@@ -1231,7 +1231,7 @@ button:active {
     align-items: center;
     align-self: flex-end;
     height: auto;
-    margin: 0px;
+    margin: 1px;
     margin-top: -70px;
   }
 
