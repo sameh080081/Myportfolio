@@ -48,8 +48,9 @@ const projects = [{
 },
 ];
 
-function seeProjects(index){
-  const {image, title, tags, description, btnLive, btnSource, } = projects[index];
+function seeProjects (index){
+  const { 
+      image, title, tags, description, btnLive, btnSource, } = projects[index];
   const container = document.createElement('div');
   container.classList.add('popup-container');
   container.innerHTML =
