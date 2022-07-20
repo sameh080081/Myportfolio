@@ -13,7 +13,7 @@
 ## Getting Started
 
 use this link to reach my portfolio.
-[live demo](https://sameh080081.github.io/Myportfolio/)
+[live demo](https://sameh080081.github.io/)
 
 ### Prerequisites
 

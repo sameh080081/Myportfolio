@@ -1,59 +1,71 @@
 const projects = [{
-  image: './images/snap/5.png',
-  title: 'Multi-Post Stories Gpngain+Glory',
+  image: './images/snap/1.jpg',
+  title: 'ZAMALEK FC Election Event',
   tags: ['Ruby on rails', 'css', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
-  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  description: 'Microverse module capstone requierd aproject,so I intended to creat website election event for ZAMALEK FC the most titled club on the 20th century, the web contains main page and about page you can navigate from one to the another smoothly,check the design and inspect for any suggested modifications',
   btnLive: './images/icons/see-live-icon.png',
   btnSource: './images/icons/Vector.png',
+  liveLink: 'https://sameh080081.github.io/Zamalek-site/',
+  sourceLink: 'https://github.com/sameh080081/Zamalek-site',
 },
 {
-  image: './images/snap/5.png',
+  image: './images/snap/1.png',
   title: 'Multi-Post Stories Gain+Glory',
   tags: ['Ruby on rails', 'css', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   btnLive: './images/icons/see-live-icon.png',
   btnSource: './images/icons/Vector.png',
+  liveLink: 'https://sameh080081.github.io/Myportfolio/',
+  sourceLink: 'https://github.com/sameh080081/Zamalek-site',
 },
 {
-  image: './images/snap/5.png',
+  image: './images/snap/1.png',
   title: 'Multi-Post Stories Gain+Glory',
   tags: ['Ruby on rails', 'css', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   btnLive: './images/icons/see-live-icon.png',
   btnSource: './images/icons/Vector.png',
+  liveLink: 'https://sameh080081.github.io/Myportfolio/',
+  sourceLink: 'https://github.com/sameh080081/Zamalek-site',
 },
 {
-  image: './images/snap/5.png',
+  image: './images/snap/1.png',
   title: 'Multi-Post Stories Gain+Glory',
   tags: ['Ruby on rails', 'css', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   btnLive: './images/icons/see-live-icon.png',
   btnSource: './images/icons/Vector.png',
+  liveLink: 'https://sameh080081.github.io/Myportfolio/',
+  sourceLink: 'https://github.com/sameh080081/Zamalek-site',
 },
 {
-  image: './images/snap/5.png',
+  image: './images/snap/1.png',
   title: 'Multi-Post Stories Gain+Glory',
   tags: ['Ruby on rails', 'css', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   btnLive: './images/icons/see-live-icon.png',
   btnSource: './images/icons/Vector.png',
+  liveLink: 'https://sameh080081.github.io/Myportfolio/',
+  sourceLink: 'https://github.com/sameh080081/Zamalek-site',
 },
 {
-  image: './images/snap/5.png',
+  image: './images/snap/1.png',
   title: 'Multi-Post Stories Gain+Glory',
   tags: ['Ruby on rails', 'css', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 60s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   btnLive: './images/icons/see-live-icon.png',
   btnSource: './images/icons/Vector.png',
+  liveLink: 'https://sameh080081.github.io/Myportfolio/',
+  sourceLink: 'https://github.com/sameh080081/Zamalek-site',
 },
 ];
 
 function seeProjects(index) {
   if (window.matchMedia('(min-width: 768px)').matches) {
-    projects[index].image = './images/snap/1.png';
+    projects[index].image = './images/snap/1.jpg';
   }
   const {
-    image, title, tags, description, btnLive, btnSource,
+    image, title, tags, description, btnLive, btnSource,liveLink,sourceLink,
   } = projects[index];
   const container = document.createElement('div');
   container.classList.add('popup-container');
@@ -72,8 +84,8 @@ function seeProjects(index) {
   </div>
   <p>${description}</p>
   <div class="btn-container">
-  <button type="button" class="btnLive">See Live<img src=${btnLive}></button>
-  <button type="button" class="btnSource">See Source<img src=${btnSource}></button>
+  <button type="button" class="btnLive" onclick="window.location.href='${liveLink}';">See Live<img src=${btnLive}></button>
+  <button type="button" class="btnSource" onclick="window.location.href='${sourceLink}';">See Source<img src=${btnSource}></button>
   </div>`;
   function closemethod() {
     container.style.display = 'none';
