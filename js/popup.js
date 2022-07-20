@@ -65,7 +65,7 @@ function seeProjects(index) {
     projects[index].image = './images/snap/1.jpg';
   }
   const {
-    image, title, tags, description, btnLive, btnSource,liveLink,sourceLink,
+    image, title, tags, description, btnLive, btnSource, liveLink, sourceLink,
   } = projects[index];
   const container = document.createElement('div');
   container.classList.add('popup-container');
